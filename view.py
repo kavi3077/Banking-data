@@ -1,0 +1,20 @@
+
+import pandas as pd
+import numpy as np
+df = pd.read_csv("banking_dataset_150.csv")
+print("\nBANKING DATASET")
+print(df.head())
+print("\nDATASET SHAPE")
+print(df.shape)
+print("\nCOLUMN NAMES")
+print(df.columns.tolist())
+print("\nDATA TYPES")
+print(df.dtypes)
+print("\nMISSING VALUES")
+print(df.isnull().sum())
+print("\nTOTAL MISSING VALUES")
+print(df.isnull().sum().sum())
+print("\nDUPLICATE RECORDS")
+print(df.duplicated().sum())
+print("\nDUPLICATE ROWS")
+print(df[df.duplicated(keep=False)])
