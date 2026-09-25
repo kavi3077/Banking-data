@@ -1,0 +1,6 @@
+Transaction_Type,Transaction_Count,Total_Transaction_Amount,Average_Transaction_Amount
+Withdrawal,30,777056.46,25901.881999999998
+Credit,28,674401.085,24085.753035714286
+Debit,34,674115.28,19826.920000000002
+Transfer,27,651525.85,24130.587037037036
+Deposit,26,619798.03,23838.385769230772
